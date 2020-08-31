@@ -1,13 +1,10 @@
 *{
-  border: 1px solid lightblue;
-
+  /* border: 1px solid lightblue; */
 }
 
 /* /////////////////////////////////////////// */
 /*                   VARIABLES                 */
 /* /////////////////////////////////////////// */
-
-
 
 
 
@@ -19,12 +16,16 @@ body{
   height: 100vh;
   margin-left: 0;
   margin-top: 0;
+  background: black url('images/background.jpg') no-repeat fixed center;
+  background-size: cover;
   background-color: black;
+  font-family: sans-serif;
 }
 
 header{
   height: 20%;
   color: white;
+  margin-bottom: 5px;
 }
 
 form{
@@ -33,25 +34,38 @@ form{
 
 label{
   color: white;
+  padding-top: 2px;
 }
 
 select{
   margin-right: 5px;
   background-color: white;
-}
-
-option{
-
+  border-radius: 2px;
 }
 
 h1{
-  font-family: sans-serif;
   text-align: center;
   font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 50px;
 }
 
 p{
   color: white;
+}
+
+img{
+  height: 60%;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+div{
+  color: white;
+  padding: 5px;
 }
 
 /* /////////////////////////////////////////// */
@@ -62,32 +76,61 @@ p{
   width: 100%;
   margin-left: 0;
   margin-top: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .site-header{
   height: 50%;
   width: 100%;
   margin-bottom: 8px;
+  letter-spacing: 10px;
 }
 
 .search{
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  border-radius: 2px;
+}
+
+#search-bar{
+  margin-bottom: 2px;
 }
 
 .display-results{
   display: flex;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-between;
   width: 80vw;
   height: 80vh;
   margin-left: auto;
   margin-right: auto;
+  border-top: 2px solid white;
 }
 
 .result{
-  width: 20%;
+  width: 30%;
   height: 30%;
+  background-color: gray;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(255, 255, 255, 0.15);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#submit:hover{
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  margin-left: 1px;
 }
 
 /* /////////////////////////////////////////// */
