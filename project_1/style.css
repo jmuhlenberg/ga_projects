@@ -1,0 +1,95 @@
+*{
+  border: 1px solid lightblue;
+
+}
+
+/* /////////////////////////////////////////// */
+/*                   VARIABLES                 */
+/* /////////////////////////////////////////// */
+
+
+
+
+
+/* /////////////////////////////////////////// */
+/*                   GENERAL                   */
+/* /////////////////////////////////////////// */
+body{
+  width: 96vw;
+  height: 100vh;
+  margin-left: 0;
+  margin-top: 0;
+  background-color: black;
+}
+
+header{
+  height: 20%;
+  color: white;
+}
+
+form{
+  margin-right: 5px;
+}
+
+label{
+  color: white;
+}
+
+select{
+  margin-right: 5px;
+  background-color: white;
+}
+
+option{
+
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+p{
+  color: white;
+}
+
+/* /////////////////////////////////////////// */
+/*                   SPECIFIC                  */
+/* /////////////////////////////////////////// */
+.site-container{
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.site-header{
+  height: 50%;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.display-results{
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result{
+  width: 20%;
+  height: 30%;
+}
+
+/* /////////////////////////////////////////// */
+/*                  ANIMATIONS                 */
+/* /////////////////////////////////////////// */

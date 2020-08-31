@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="site-container">
+      <header>
+        <div class="site-header">
+          <h1>the mixologist</h1>
+        </div>
+        <div class="search">
+          <form>
+            <input type="text" id='search-bar' placeholder="search">
+            <input type="submit" id='submit-button'>
+          </form>
+          <label for="liquor">Liquor:</label>
+          <select class="liquor" name='liquor'>
+            <option value="none"></option>
+            <option value="tequila">Tequila</option>
+            <option value="vodka">Vodka</option>
+            <option value="whiskey">Whiskey</option>
+            <option value="gin">Gin</option>
+          </select>
+          <label for="flavor">Flavor:</label>
+          <select class='flavor' name='flavor'>
+            <option value="none"></option>
+            <option value="fruity">Fruity</option>
+            <option value="tart">Tart</option>
+            <option value="refreshing">Refreshing</option>
+            <option value="alcohol">Alcohol Forward</option>
+          </select>
+          <button type="button" name="button">GO</button>
+        </div>
+      </header>
+      <div class="display-results">
+        <div class="result">
+          <img src="" alt="result">
+          <p>Result</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
