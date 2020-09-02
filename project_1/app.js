@@ -217,7 +217,6 @@ $(() => {
     $('.display-results').empty()
 
     $.ajax(randomSettings).done(function (response) {
-      console.log(response);
 
       //populate the results div
       const result = $('<div class="result random">')

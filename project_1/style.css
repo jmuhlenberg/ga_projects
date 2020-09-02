@@ -290,6 +290,58 @@ margin-right: auto;
 /*                     MEDIA                   */
 /* /////////////////////////////////////////// */
 
-/* @@media (min-width: ) {
+@media (min-width:800px ) {
+  .result{
+    width: 23%;
+  }
+  .result-ingredients{
+    height: 80%;
+    width: 75%;
+    left: 12%;
+    padding-top: 20px;
+  }
+  .random{
+    width: 40%;
+    height: 50%;
+  }
+}
 
-} */
+@media (min-width:1050px ) {
+  .result{
+    width: 18%;
+  }
+  .result-ingredients{
+    width: 50%;
+    left: 25%;
+  }
+  .random{
+    width: 40%;
+    height: 60%;
+  }
+}
+
+@media (min-width:1400px ) {
+  .result{
+    width: 12%;
+  }
+  .result-ingredients{
+    width: 50%;
+    left: 25%;
+  }
+  .result-ingredients > img{
+    width: 40%;
+  }
+  .random{
+    width: 35%;
+    height: 70%;
+  }
+}
+
+@media (min-width:1800px ) {
+  .result{
+    width: 10%;
+  }
+  .random{
+    height: 80%;
+  }
+}
