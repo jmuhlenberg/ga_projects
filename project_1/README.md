@@ -1,6 +1,6 @@
 # Project #1: the mixologist
 
-### Link:
+### Link: https://jmuhlenberg.github.io/ga_projects/project_1/
 
 ## Project Details & Instructions:
 
